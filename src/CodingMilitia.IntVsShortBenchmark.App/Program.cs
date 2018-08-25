@@ -34,5 +34,13 @@ namespace CodingMilitia.IntVsShortBenchmark.App
             {
             }
         }
+        
+        [Benchmark]
+        public void ForUsingLong()
+        {
+            for (long i = 0; i < Iterations; ++i)
+            {
+            }
+        }
     }
 }
